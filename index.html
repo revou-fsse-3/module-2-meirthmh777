@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spareshop</title>
+</head>
+
+<body>
+    <header>
+        <nav class="toplogo">
+            <h1 style="color: rgb(255, 255, 255);">Spareshop</h1>
+            <div class="navbar" id="navbar">
+                <a href="#home">Home</a>
+                <a href="#products">Products</a>
+                <a href="#contactus">Contact Us</a>
+                <a href="#aboutus">About</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home">
+                <h2 style="color: aliceblue;">All your spare part needs<br>HERE!</h2>
+                <p style="color: aliceblue;">Freedom to buy car spare parts and accessories based on your needs.</p>
+            </div>
+        </section>
+        <section id="products">
+            <div class="products">
+                <div class="column">
+                    <h2 style="color: rgb(0, 0, 0);">WHY<br>choosing Spareshop?</h2><br><br>
+                    <ul>
+                        <li><span class="checklist">✔</span> Anything you can buy from many brands.</li><br>
+                        <li><span class="checklist">✔</span> Available on Asia, Australia, Europe, USA.</li><br>
+                        <li><span class="checklist">✔</span> Free shipping.</li><br>
+                        <li><span class="checklist">✔</span> Freedom to make your own online shop.</li><br>
+                    </ul>
+                </div>
+                <div class="gridcontainer">
+                    <div class="griditem">
+                        <img src="assets/c porsche.jfif" alt="porsche car logo">
+                    </div>
+                    <div class="griditem">
+                        <img src="assets/c jeep.jfif" alt="jeep car logo">
+                    </div>
+                    <div class="griditem">
+                        <img src="assets/c toyota.jfif" alt="toyota car logo">
+                    </div>
+                    <div class="griditem">
+                        <img src="assets/c mercy.jfif" alt="mercy car logo">
+                    </div>
+                    <div class="griditem">
+                        <img src="assets/c honda.jfif" alt="honda car logo">
+                    </div>
+                    <div class="griditem">
+                        <img src="assets/c audi.jfif" alt="audi car logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="contactus" id="contactus">
+            <h3 class="text" style="color: aliceblue;">Contact Us!</h3>
+            <p class="text" style="color: aliceblue;">Free make your own online shop!</p><br>
+            <div class="containerform">
+                <form class="text" id="form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" id="Female" name="gender" value="Female" required>
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Male" name="gender" value="Male" required>
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Other" name="gender" value="Other">
+                        <label for="Other">Other</label>
+                    </div>
+                    <div class="form-group">
+                        <label for="dropdown">Country:</label>
+                        <select id="dropdown" name="dropdown" required>
+                            <option value="">--Select--</option>                        
+                            <option value="Indonesia">Indonesia</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Malaysia">Malaysia</option>
+                            <option value="China">China</option>
+                            <option value="Philippines">Philippines</option>
+                            <option value="None of them">Other country</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <input type="text" name="message" id="messagebox" placeholder="Write your message!">
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="correct" name="correct" value="correct" required>
+                        <label for="correct">My data is correct.</label>
+                    </div>
+                    <div class="button">
+                        <button type="submit" class="text" id="signup">Sign Up</button>
+                        <button type="submit" class="text" id="signin">Sign In</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="aboutus" id="aboutus">
+            <p class="text">Copyright © 2023, meirthmh, All rights reserved.</p>
+        </section>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
