@@ -158,6 +158,22 @@ main {
 .home {
     padding-top: 57px;
 }
+.hometext {
+    animation-duration: 5s;
+    animation-name: hometext;
+}
+@keyframes hometext {
+    from {
+        margin-right: 100%;
+        color: rgb(43, 43, 43);
+    }
+    75% {
+        color: white;
+    }
+    to {
+        margin-right: 0%;
+    }
+}
 
 /*section product*/
 #products {
