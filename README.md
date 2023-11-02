@@ -1,7 +1,7 @@
 # New Project
 ## About Spareshop
 Access to our website project:
-Vercel app: https://module-1-meirthmh777.vercel.app/
+Vercel app: https://module-2-meirthmh777.vercel.app/
 
 ## Project Description
 Our Spareshop provide you to create your own online shop to sell your products and accessable to buy many spare parts and accessories for your car.
