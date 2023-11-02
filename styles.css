@@ -3,30 +3,52 @@
     margin: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins/Poppins-Light.ttf);
+}
 body {
     background-color: white;
     padding: 0;
     margin: 0;
+    font-family: "Poppins";
 }
 
 h1 {
     font-style: oblique;
-    font-size: 60px;
+    font-size: 40px;
+    animation-duration: 7s;
+    animation-name: brand;
+    animation-iteration-count: infinite;
+    font-weight: bold;
+    text-shadow: white 1.5px 1.5px;
+}
+@keyframes brand {
+    from {
+        color: white;
+    }
+    75% {
+        color: rgb(112, 112, 189);
+    }
+    to {
+        color: white;
+    }
 }
 p {
     font-size: 20px;
+    text-shadow: #000 2px 2px;
 }
 h2 {
-    font-size: 45px;
-    color: black;
+    font-size: 35px;
+    color: white;
 }
+
 h3 {
     font-size: 30px;
 }
 
 .text {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*body*/
@@ -48,7 +70,7 @@ header {
     margin: 10px;
     text-decoration: none;
     transition: 0.88s ease;
-    font-size: 18px;
+    font-size: 15px;
     color: #ffffff;
 }
 .navbar a:hover {
@@ -132,14 +154,15 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     height: 80vh;
+}
 .home {
     padding-top: 57px;
 }
-}
+
 /*section product*/
 #products {
     background-color: white;
-    padding: 40px 0 30px 50px;
+    padding: 40px 0 50px 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,20 +176,33 @@ ul {
     list-style: none;
 }
 li {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.3;
     margin-bottom: 10px;
     display: flex;
 }
+.list {
+    animation-duration: 5s;
+    animation-name: list;
+}
+@keyframes list {
+    from {
+        margin-left: 100%;
+        color: white;
+    }
+    to {
+        margin-left: 0;
+    }
+}
 .checklist {
-    margin-right: 10px;
+    margin-right: 5px;
     font-size: 20px;
     color: #0f7abc;
 }
 .gridcontainer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 5px;
 }
 .griditem img {
     max-width: 95%;
@@ -174,6 +210,87 @@ li {
     display: block;
 }
 
+/*section accessories*/
+#accessories {
+    padding: 65px 50px 50px 50px;
+    text-align: center;
+    background-color: #DDE6ED;
+}
+.gridacc {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(3, 300px);
+    gap: 5px;
+    justify-content: center;
+}
+.acc {
+    display: grid;
+    align-items: center;
+}
+#acc1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
+}
+#acc1 img {
+    width: 300px;
+    height: 600px;
+}
+#acc2 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 3;
+}
+#acc2 img {
+    width: 300px;
+    height: 300px;
+}
+#acc3 {
+    grid-column: 2;
+    grid-row: 2 / span 3;
+}
+#acc3 img {
+    width: 300px;
+    height: 600px;
+}
+#acc4 {
+    grid-column: 2 /span 2;
+    grid-row: 1;
+}
+#acc4 img {
+    width: 600px;
+    height: 300px;
+}
+#acc5 {
+    grid-column: 4;
+    grid-row: 1 / span 2;
+}
+#acc5 img {
+    width: 300px;
+    height: 600px;
+}
+#acc6{
+    grid-column: 3;
+    grid-row: 2;
+}
+#acc6 img {
+    width: 300px;
+    height: 300px;
+}
+#acc7 {
+    grid-column: 3;
+    grid-row: 3;
+}
+#acc7 img {
+    width: 300px;
+    height: 300px;
+}
+#acc8 {
+    grid-column: 4;
+    grid-row: 3;
+}
+#acc8 img {
+    width: 300px;
+    height: 300px;
+}
 /*footer*/
 /*section contact us*/
 .contactus {
@@ -276,4 +393,5 @@ li {
     padding: 20px;
     margin: 0;
     font-weight: bold;
+    text-align: center;
 }
