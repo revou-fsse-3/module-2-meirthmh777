@@ -414,6 +414,7 @@ li {
 #signup:hover, #signin:hover {
     background-color: #021c2c;
 }
+
 /* section ratingsss */
 .ratingform {
     background-color: #27374D;
@@ -430,7 +431,6 @@ li {
     position: relative;
 }
 .ratinglabel label {
-    float: center;
     padding: 0;
     font-size: 50px;
     cursor: pointer;
