@@ -17,7 +17,7 @@ body {
 h1 {
     font-style: oblique;
     font-size: 40px;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-name: brand;
     animation-iteration-count: infinite;
     font-weight: bold;
@@ -27,7 +27,7 @@ h1 {
     from {
         color: white;
     }
-    75% {
+    50% {
         color: rgb(112, 112, 189);
     }
     to {
@@ -277,11 +277,11 @@ li {
 }
 #acc5 {
     grid-column: 4;
-    grid-row: 1 / span 2;
+    grid-row: 1;
 }
 #acc5 img {
     width: 300px;
-    height: 600px;
+    height: 300px;
 }
 #acc6{
     grid-column: 3;
@@ -301,11 +301,25 @@ li {
 }
 #acc8 {
     grid-column: 4;
-    grid-row: 3;
+    grid-row: 2 / span 3;
 }
 #acc8 img {
     width: 300px;
-    height: 300px;
+    height: 600px;
+}
+/* section srcset pictures */
+.spareparts {
+    background-color: #9DB2BF;
+    padding: 60px 0 40px 0;
+    justify-content: center;
+    align-items: center;
+}
+.sparepartsimg {
+    text-align: center;
+}
+.sparepartsimg > picture > img {
+    width: auto;
+    height: auto;
 }
 /*footer*/
 /*section contact us*/
