@@ -423,8 +423,9 @@ li {
     color: aliceblue;
 }
 .ratinglabel {
-    justify-content: space-between;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
     font-size: 0;
     position: relative;
 }
@@ -434,7 +435,7 @@ li {
     font-size: 50px;
     cursor: pointer;
 }
-.ratinglabel label::before {
+.ratinglabel label:before {
     content: "\2606";
     padding-bottom: 8px;
     display: inline-block;
@@ -460,12 +461,12 @@ li {
     transform: none;
     letter-spacing: 0;
 }
-.ratinglabel  input:checked ~ label::before {
+
+.ratinglabel  input:checked ~ label:before {
     content: "\2605";
     color: orange;
     filter: drop-shadow(0 0 4px);
     transform: rotate(.2turn);
-    transition-delay: calc(0.1 * attr(data-idx integer));
 }
 
 /*section about us*/
