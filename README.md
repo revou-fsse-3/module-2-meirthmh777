@@ -1,11 +1,29 @@
+# Documentation of Module 2 Assignment
+## 1. Register to Netlify Website
+- Go to netlify.com
+- I already have my account in Netlify so I just Log In to Netlify.
+- Enter email and your password.
+- Now you can see your page project in your Netlify.
+
+## 2.1 Connect Netlify with Github Project
+We need to connect our project in Github with Netlify. Here you can follow the steps.
+
+
+## 2.2 Deploy Github Project to Netlify with Create A Pull Request
+Once you connect your Github Repository with Netlify, now we can deploy our Github Project to Netlify with create a pull request. Here I want to deploy my Spareshop Website Project to Netlify.
+
+
+
 # New Project
 ## About Spareshop
 Access to our website project:
 Vercel app: https://module-2-meirthmh777.vercel.app/
+Netlify app : https://zingy-maamoul-c666f5.netlify.app/
 
 ## Project Description
 Our Spareshop provide you to create your own online shop to sell your products and accessable to buy many spare parts and accessories for your car.
 
+# The Author
 # Meirth Maulida Hartanti
 > _**Freedom** is already within you._
 
