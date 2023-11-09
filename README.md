@@ -7,6 +7,8 @@
 - Now you can see your page project in your Netlify.
 ![jpg](/Module%202%20Documentation/1.3.png)
 
+------------------------------------------------
+
 ## 2. Connect Netlify with Github Project and Deploy Github Project to Netlify with Create A Pull Request
 ### 2.1 Connect Netlify with Github Project
 You need to connect your project in Github with Netlify so the website project can be seen through Netlify. Here you can follow the steps.
@@ -55,6 +57,8 @@ After your project reviewed by your team and there is no problem with your proje
 - Don't forget to delete the branch.
 ![png](/Module%202%20Documentation/2.2.13.png)
 
+-----------------------------------------------
+
 ## 3. Connect Custom Domain to Netlify and Domain with Cloudflare
 ### 3.1 Connect Costum Domain to Netlify
 After buy custom domain, you need to change the nameserver from Netlify to your custom Domain.
@@ -96,8 +100,8 @@ Access to our website project in the links below:
 ## Project Description
 Our Spareshop provide you to create your own online shop to sell your products and accessable to buy many spare parts and accessories for your car.
 
-
 -----------------------------------------------
+
 # The Author
 ## Meirth Maulida Hartanti
 > _**Freedom** is already within you._
