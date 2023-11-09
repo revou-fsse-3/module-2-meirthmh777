@@ -9,11 +9,51 @@
 
 ## 2. Connect Netlify with Github Project and Deploy Github Project to Netlify with Create A Pull Request
 ### 2.1 Connect Netlify with Github Project
-We need to connect our project in Github with Netlify. Here you can follow the steps.
-- In the project page
+You need to connect your project in Github with Netlify so the website project can be seen through Netlify. Here you can follow the steps.
+- In the project page you can choose "Add new site" and click which method you would like to choose. Because in my case I weant to connect my Github repository so I click "import an eixting project". Then choose which repository and project you want to connect with Netlify.
+![png](/Module%202%20Documentation/2.1.1.png)
+![png](/Module%202%20Documentation/2.1.2.png)
+![png](/Module%202%20Documentation/2.1.3.png)
+- After choosing the project, now you can review your project. after finish of review you can click deploy. Wait until the deploy process done and your project can be seen by clicking the link.
+![png](/Module%202%20Documentation/2.1.4.png)
+![png](/Module%202%20Documentation/2.1.5.png)
+![png](/Module%202%20Documentation/2.1.6.png)
+![png](/Module%202%20Documentation/2.1.7.png)
 
 ### 2.2 Deploy Github Project to Netlify with Create A Pull Request
-Once you connect your Github Repository with Netlify, now we can deploy our Github Project to Netlify with create a pull request. Here I want to deploy my Spareshop Website Project to Netlify.
+#### 2.2.1 Create New Branch
+Before doing the pull request we need to make a new branch first.
+- Create new branch in vscode and name it based on your need.
+![png](/Module%202%20Documentation/2.2.1.png)
+- in the terminal command "git add ." and make sure all of your project files staged. After that name your pull request. And click commit.
+![png](/Module%202%20Documentation/2.2.2.png)
+- In the terminal command "git log" to make sure your branch is ready.
+![png](/Module%202%20Documentation/2.2.3.png) 
+- Command "push" and follow the next command in the terminal.
+![png](/Module%202%20Documentation/2.2.4.png)
+![png](/Module%202%20Documentation/2.2.5.png)
+- If your branch is ready you can check the link in the terminal. Wait until your team done reviewing and making sure your project doesn't have problem.
+![png](/Module%202%20Documentation/2.2.6.png)
+
+#### 2.2.2 Create Pull Request
+After create the branch, we need to create pull request so your team can review your project first before push and merge to the repository.
+- Using the vscode terminal command click the repository link.
+![png](/Module%202%20Documentation/2.2.6.png)
+- Then you can see the request message and fill the message based on your need. Then click create pull request.
+![png](/Module%202%20Documentation/2.2.7.png)
+- Wait until the process is done. Don't try to click merge pull request before your team say your project is OK to be pulled to the main branch.
+![png](/Module%202%20Documentation/2.2.8.png) 
+![png](/Module%202%20Documentation/2.2.9.0.png)
+
+#### 2.2.3 Push and Merge The Project
+After your project reviewed by your team and there is no problem with your project, now you can merge the project to the main branch. Then you can choose which method you want to make merge to the main branch. in this case I choose "squash and merge" request. After that don't forget to confirm.
+![png](/Module%202%20Documentation/2.2.9.png)
+![png](/Module%202%20Documentation/2.2.10.png)
+- Now you can see the new branch already merged with the main branch.
+![png](/Module%202%20Documentation/2.2.11.png)
+![png](/Module%202%20Documentation/2.2.12.png)
+- Don't forget to delete the branch.
+![png](/Module%202%20Documentation/2.2.13.png)
 
 ## 3. Connect to Netlify and Domain with Cloudflare
 - Open Cludflare and create new account.
@@ -41,8 +81,10 @@ Access to our website project in the links below:
 ## Project Description
 Our Spareshop provide you to create your own online shop to sell your products and accessable to buy many spare parts and accessories for your car.
 
+
+-----------------------------------------------
 # The Author
-# Meirth Maulida Hartanti
+## Meirth Maulida Hartanti
 > _**Freedom** is already within you._
 
 ### My Links
