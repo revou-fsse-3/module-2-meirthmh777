@@ -55,7 +55,22 @@ After your project reviewed by your team and there is no problem with your proje
 - Don't forget to delete the branch.
 ![png](/Module%202%20Documentation/2.2.13.png)
 
-## 3. Connect to Netlify and Domain with Cloudflare
+## 3. Connect Custom Domain to Netlify and Domain with Cloudflare
+### 3.1 Connect Costum Domain to Netlify
+After buy custom domain, you need to change the nameserver from Netlify to your custom Domain.
+- Go to Domain tab in Netlify. Click Add or register domain
+![png](/Module%202%20Documentation/3.0.1.png)
+- Fill the name of your domain and verify
+![png](/Module%202%20Documentation/3.0.2.png)
+- Add your DNS records and continue.
+![png](/Module%202%20Documentation/3.0.3.png)
+- After that copy all of the nameserver from Netlify and paste them in Domain/nameserver where you buy your custom domain and save. Wait until the process is done, then your website is ready
+![png](/Module%202%20Documentation/3.0.4.png)
+![png](/Module%202%20Documentation/3.0.5.png)
+![png](/Module%202%20Documentation/3.0.6.png)
+![png](/Module%202%20Documentation/3.4.1.png)
+
+### 3.2 Connect Costum Domain to Cloudflare
 - Open Cludflare and create new account.
 - Add your website domain.
 ![jpg](/Module%202%20Documentation/3.1.png)
@@ -69,7 +84,7 @@ After your project reviewed by your team and there is no problem with your proje
 ![png](/Module%202%20Documentation/3.4.0.png)
 ![png](/Module%202%20Documentation/3.4.1.png)
 
-
+---------------------------------------------
 
 # New Project
 ## About Spareshop
