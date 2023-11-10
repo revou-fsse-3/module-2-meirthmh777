@@ -55,8 +55,6 @@ header {
     background-color: #262626;
     position: fixed;
     width: 100%;
-    top: 0;
-    z-index: 100;
 }
 .toplogo {
     display: flex;
@@ -64,8 +62,13 @@ header {
     align-items: center;
     padding: 0 25px;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .navbar a {
-    margin: 10px;
+    margin-right: 15px;
     text-decoration: none;
     transition: 0.88s ease;
     font-size: 15px;
@@ -81,10 +84,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 10px;
+    padding: 5px;
 }
 #moonicon {
-    width: 30px;
+    width: 35px;
     cursor: pointer;
     color: #fff;
 }
