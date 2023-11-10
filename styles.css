@@ -81,7 +81,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 15px;
+    padding-left: 10px;
 }
 #moonicon {
     width: 30px;
@@ -99,7 +99,6 @@ header {
     --secondary-color:#ffff;
     --tertiary-color: #000000;
     --quaternary-color: #000000;
-
 }
 
 /* hamburger bar */
@@ -122,9 +121,6 @@ header {
     }
     .navbar {
         display: flex;     /*on wide screen shows*/
-    }
-    .toplogo {
-        align-items: center;
     }
 }
 @media screen and (max-width: 767px) {
