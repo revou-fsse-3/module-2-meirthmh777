@@ -74,6 +74,12 @@ After buy custom domain, you need to change the nameserver from Netlify to your 
 ![png](/Module%202%20Documentation/3.0.6.png)
 ![png](/Module%202%20Documentation/3.4.1.png)
 
+You need to fill the Domain management in your Netlify Site. Here are the steps.
+- Go to your Site in Netlify
+![png](/Module%202%20Documentation/3.0.7.png)
+- Then go to Domain Management and manage your domain by adding your domain alias.
+![png](/Module%202%20Documentation/3.0.8.png)
+
 ### 3.2 Connect Costum Domain to Cloudflare
 - Open Cludflare and create new account.
 - Add your website domain.

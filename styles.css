@@ -40,12 +40,14 @@ p {
 }
 h2 {
     font-size: 35px;
-    color: white;
+    color: var(--secondary-color);
 }
 .text {
     text-align: center;
     font-family: "Poppins";
 }
+
+    
 
 /*body*/
 /*header*/
@@ -74,6 +76,33 @@ header {
     background-color:#DDE6ED;
     padding: 1rem;
 }
+/* dark mode toggle */
+.darkmodecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+#moonicon {
+    width: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+:root {
+    --primary-color: #ffff;
+    --secondary-color:#000000;
+    --tertiary-color: #9DB2BF;
+    --quaternary-color: #27374D;
+}
+.darktheme {
+    --primary-color: #000000;
+    --secondary-color:#ffff;
+    --tertiary-color: #000000;
+    --quaternary-color: #000000;
+
+}
+
+/* hamburger bar */
 .hamburger {
     display: none;
     cursor: pointer;
@@ -92,7 +121,10 @@ header {
         display: none;      /*on wide screen hides*/
     }
     .navbar {
-        display: block;     /*on wide screen shows*/
+        display: flex;     /*on wide screen shows*/
+    }
+    .toplogo {
+        align-items: center;
     }
 }
 @media screen and (max-width: 767px) {
@@ -173,7 +205,7 @@ main {
 
 /*section product*/
 #products {
-    background-color: white;
+    background-color: var(--primary-color);
     padding: 40px 0 50px 50px;
     display: flex;
     justify-content: space-between;
@@ -196,6 +228,7 @@ li {
 .list {
     animation-duration: 5s;
     animation-name: list;
+    color: var(--secondary-color);
 }
 @keyframes list {
     from {
@@ -226,7 +259,7 @@ li {
 #accessories {
     padding: 65px 50px 50px 50px;
     text-align: center;
-    background-color: #DDE6ED;
+    background-color: var(--tertiary-color);
 }
 .gridacc {
     display: grid;
@@ -305,7 +338,7 @@ li {
 }
 /* section srcset pictures */
 .spareparts {
-    background-color: #9DB2BF;
+    background-color: var(--tertiary-color);
     padding: 60px 0 40px 0;
     justify-content: center;
     align-items: center;
@@ -321,7 +354,7 @@ li {
 /*section contact us*/
 .contactus {
     padding: 65px 0 30px 0;
-    background-color: #27374D;
+    background-color: var(--quaternary-color);
     justify-content: center;
     align-items: center;
 }
@@ -417,7 +450,7 @@ li {
 
 /* section ratingsss */
 .ratingform {
-    background-color: #27374D;
+    background-color: var(--quaternary-color);
     padding: 50px;
     justify-content: center;
     text-align: center;
